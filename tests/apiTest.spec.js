@@ -36,7 +36,7 @@ test('GET /', async () => {
     await expect(statusCode).toBe(200);
     await expect(response).toBeOK();
     await expect(response.ok()).toBeTruthy();
-    await expect(responseText).toEqual("Node Express API Server App.");
+    await expect(responseText).toEqual("Node Express API Server App");
     await expect(contentTypeHeaderValue).toBe("text/html; charset=utf-8");
     await expect(contentLengthHeaderValue).toEqual(responseText.length.toString());
 
