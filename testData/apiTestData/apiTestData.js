@@ -2,7 +2,7 @@ export const BASE_URL = 'http://localhost:5009/api';
 export const USERS_ENDPOINT = `${BASE_URL}/users`;
 
 export const expectedTexts = {
-    successfulGetApiHome: "Node Express API Server App.",
+    successfulGetApiHome: "Node Express API Server App",
     unsuccessfulGet: "Cannot GET",
     successfulGetUsersHomeEmptyDb: "There are no users.",
 }
